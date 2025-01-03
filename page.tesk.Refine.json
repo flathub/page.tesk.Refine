@@ -140,8 +140,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/TheEvilSkeleton/Refine.git",
-                    "tag": "0.1.1",
-                    "commit": "be9a077b5de810fd491cbfcb6bde5d46041035c1"
+                    "tag": "0.2.0",
+                    "commit": "371932becfea4255a4fee95908d5ecf072faf15e"
                 },
                 {
                     "type": "file",
