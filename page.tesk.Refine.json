@@ -124,8 +124,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/libadwaita.git",
-                    "tag": "1.7.alpha",
-                    "commit": "f4b0068b2ef8db3a582eda08eacbaa8ceac3ef3a"
+                    "tag": "1.7.beta",
+                    "commit": "10dbadc7a770f36e20d5053e6b08676bc36f7957"
                 }
             ]
         },
@@ -141,8 +141,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/TheEvilSkeleton/Refine.git",
-                    "tag": "0.4.3",
-                    "commit": "d55f2d8b386ece9bdee5c95f2c2feda5c1fdea74"
+                    "tag": "0.4.4",
+                    "commit": "fa91ba7dc8a372fa9b316a3ef04568f1dff356d6"
                 },
                 {
                     "type": "file",
