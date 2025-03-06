@@ -3,7 +3,7 @@
     "runtime": "org.gnome.Platform",
     "runtime-version": "47",
     "sdk": "org.gnome.Sdk",
-    "command": "start-refine.sh",
+    "command": "refine",
     "finish-args": [
         "--share=ipc",
         "--socket=fallback-x11",
@@ -133,20 +133,12 @@
             "name": "refine",
             "builddir": true,
             "buildsystem": "meson",
-            "post-install": [
-                "install -Dm 755 ../start-refine.sh /app/bin/start-refine.sh",
-                "desktop-file-edit --set-key='Exec' --set-value='start-refine.sh' /app/share/applications/$FLATPAK_ID.desktop"
-            ],
             "sources": [
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/TheEvilSkeleton/Refine.git",
-                    "tag": "0.4.5",
-                    "commit": "e6aac33a87c3d4e0ffd052ffcb2c6ed735a9443c"
-                },
-                {
-                    "type": "file",
-                    "path": "start-refine.sh"
+                    "tag": "0.5.0",
+                    "commit": "ba5e39f40869942e4ba41de2ac0c011d61db392f"
                 }
             ]
         }
