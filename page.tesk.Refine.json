@@ -137,8 +137,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/TheEvilSkeleton/Refine.git",
-                    "tag": "0.5.4",
-                    "commit": "03e669c755478ceeb6f2a4f0d4509cbe25d9734c"
+                    "tag": "0.5.5",
+                    "commit": "4f858f72b05ee01fa6823427f6753a30a8c3f290"
                 }
             ]
         }
