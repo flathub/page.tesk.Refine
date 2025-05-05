@@ -93,8 +93,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/TheEvilSkeleton/Refine.git",
-                    "tag": "0.5.8",
-                    "commit": "dd3b7784210d74b55b50900ae557b011a6691850"
+                    "tag": "0.5.9",
+                    "commit": "6934855731b9f1288265c86d0c34d099f361aec9"
                 }
             ]
         }
