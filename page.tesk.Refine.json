@@ -1,7 +1,7 @@
 {
     "id": "page.tesk.Refine",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "48",
+    "runtime-version": "49",
     "sdk": "org.gnome.Sdk",
     "command": "refine",
     "finish-args": [
@@ -28,20 +28,6 @@
         "*.a"
     ],
     "modules": [
-        {
-            "name": "blueprint-compiler",
-            "buildsystem": "meson",
-            "cleanup": [
-                "*"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "tag": "v0.16.0"
-                }
-            ]
-        },
         {
             "name": "libportal",
             "buildsystem": "meson",
@@ -93,8 +79,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/TheEvilSkeleton/Refine.git",
-                    "tag": "0.5.10",
-                    "commit": "d45965c2243d063a08ec985e164526775705ddc4"
+                    "tag": "0.6.0",
+                    "commit": "a322f4402b994b680408df3fb4cdbb0136f8557c"
                 }
             ]
         }
