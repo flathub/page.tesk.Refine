@@ -42,7 +42,12 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/flatpak/libportal/releases/download/0.9.1/libportal-0.9.1.tar.xz",
-                    "sha256": "de801ee349ed3c255a9af3c01b1a401fab5b3fc1c35eb2fd7dfb35d4b8194d7f"
+                    "sha256": "de801ee349ed3c255a9af3c01b1a401fab5b3fc1c35eb2fd7dfb35d4b8194d7f",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 230124,
+                        "url-template": "https://github.com/flatpak/libportal/releases/download/$version/libportal-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -63,7 +68,11 @@
                 {
                     "type": "archive",
                     "url": "https://download.gnome.org/sources/dconf/0.49/dconf-0.49.0.tar.xz",
-                    "sha256": "16a47e49a58156dbb96578e1708325299e4c19eea9be128d5bd12fd0963d6c36"
+                    "sha256": "16a47e49a58156dbb96578e1708325299e4c19eea9be128d5bd12fd0963d6c36",
+                    "x-checker-data": {
+                        "type": "gnome",
+                        "name": "dconf"
+                    }
                 },
                 {
                     "type": "patch",
@@ -80,7 +89,11 @@
                     "type": "git",
                     "url": "https://gitlab.gnome.org/TheEvilSkeleton/Refine.git",
                     "tag": "0.7.0",
-                    "commit": "b9ef11b65251362bc8b1fe3571637a2e5226ac21"
+                    "commit": "b9ef11b65251362bc8b1fe3571637a2e5226ac21",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^([\\d.]+)$"
+                    }
                 }
             ]
         }
