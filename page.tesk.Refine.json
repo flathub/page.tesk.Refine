@@ -1,7 +1,7 @@
 {
     "id": "page.tesk.Refine",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "49",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "command": "refine",
     "finish-args": [
