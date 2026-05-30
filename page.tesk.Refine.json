@@ -1,7 +1,7 @@
 {
     "id": "page.tesk.Refine",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "49",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "command": "refine",
     "finish-args": [
@@ -79,8 +79,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/TheEvilSkeleton/Refine.git",
-                    "tag": "0.7.1",
-                    "commit": "5306dbd9892c93f7cbb146e327375f305ebdacd6"
+                    "tag": "0.8.0",
+                    "commit": "a50119a30b8233f940974c6886b2fa7591a463cc"
                 }
             ]
         }
